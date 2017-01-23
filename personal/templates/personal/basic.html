@@ -1,0 +1,9 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+
+	{% for details in contacts %}
+		<p>{{details}}</p>
+	{% endfor %}
+
+{% endblock %}
